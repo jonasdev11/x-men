@@ -11,8 +11,7 @@ personagem.forEach((personagem) => {
 
             if (window.innerWidth < 450) {
                 window.scrollTo({ top: 0, behavior: 'smooth' });}
-
-        /*passo 3 - verificar se já exista um personagem selecionado, se sim, devemos remover a seleção dele */
+    /*passo 3 - verificar se já exista um personagem selecionado, se sim, devemos remover a seleção dele */
             
         const personagemSelecionado = document.querySelector('.selecionado');
         personagemSelecionado.classList.remove('selecionado')
